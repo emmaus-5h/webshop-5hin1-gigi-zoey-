@@ -33,7 +33,14 @@ insert into products (name, description, code, price) values ('Round Lab 1025 do
 insert into products (name, description, code, price) values ('Beauty of Joseon relief sunscreen', 'An organic sunscreen that comes in a lightweight and quick-absorbent texture to allow for fresh absorption without pilling or leaving any white cast.
   Formulated with rice extract and grain-derived probiotics to help nourish natural skin strength.
   Free of oxybenzone, octinoxate and animal-derived ingredients, making it suitable for sensitive skin.
-  SPF 50+ PA++++', '586928463-6', 18,99);
+  SPF 50+ PA++++', '586928463-6', 18.99);
 insert into products (name, description, code, price) values ('COSRX advanced snail 96 mucin power essence', 'An elasticity enhancing essence infused with hypoallergenic snail secretion filtrate to help soothe your skin.
   Enriched with various nutritious ingredients to improve damaged skin and keep it moisturized all day.', '192662523-7', 23.99);
+insert into products (name, description, code, price) values ('Round Lab 1025 dokdo foam cleanser', 'A gentle foaming cleanser which removes excess oil, makeup residue and dirt from your skin.
+  Contains 74 kinds of natural minerals derived from deep sea water from Ulleung-do in South Korea.
+  Infused with panthenol and allantoin to prevent redness which makes this a perfect cleanser for people with sensitive skin.', '326785419-6', 17.99);
+insert into products (name, description, code, price) values ('Beauty of Joseon glow serum', 'A honey-like serum enriched with hanbang, traditional Korean herbal medicine, ingredients to help fight acne and enlarged pores.
+  Infused with 60% propolis extract and 2% niacinamide.
+  Anti-inflammation ingredients: Tamanu oil, Betanie Salicylate, Tea tree extract.
+  Brightening ingredients: Lotus corniculatus seed extract.', '534965714-8', 17.99);
 
