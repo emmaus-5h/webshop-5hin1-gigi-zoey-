@@ -70,3 +70,15 @@ insert into brands (brand) values (anua);
 insert into brands (brand) values (cosrx);
 insert into brands (brand) values (roundlab);
 insert into brands (brand) values (boj);
+
+
+CREATE TABLE categories (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  category VARCHAR(255)
+);
+
+insert into categories (category) values (cleansers);
+insert into categories (category) values (moisturizers);
+insert into categories (category) values (toners);
+insert into categories (category) values (masks);
+insert into categories (category) values (serums);
