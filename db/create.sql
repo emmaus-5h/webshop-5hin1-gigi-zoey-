@@ -36,7 +36,7 @@ insert into products (name, brand, description, code, price) values ('Round Lab 
   Becomes watery and transparent like a gel, instantly cooling and soothing your skin.
   Suitable for all skin types.', '393155505-3', 3.50);
 -- 5
-insert into products (name, brand, description, code, price) values ('Beauty of Joseon relief sunscreen', 'boj','An organic sunscreen that comes in a lightweight and quick-absorbent texture to allow for fresh absorption without pilling or leaving any white cast.
+insert into products (name, brand, description, code, price) values ('Beauty of Joseon relief sunscreen', 'beautyofjoseon','An organic sunscreen that comes in a lightweight and quick-absorbent texture to allow for fresh absorption without pilling or leaving any white cast.
   Formulated with rice extract and grain-derived probiotics to help nourish natural skin strength.
   Free of oxybenzone, octinoxate and animal-derived ingredients, making it suitable for sensitive skin.
   SPF 50+ PA++++', '586928463-5', 18.99);
@@ -48,12 +48,12 @@ insert into products (name, brand, description, code, price) values ('Round Lab 
   Contains 74 kinds of natural minerals derived from deep sea water from Ulleung-do in South Korea.
   Infused with panthenol and allantoin to prevent redness which makes this a perfect cleanser for people with sensitive skin.', '326785419-3', 17.99);
 -- 8
-insert into products (name, brand, description, code, price) values ('Beauty of Joseon glow serum', 'boj', 'A honey-like serum enriched with hanbang, traditional Korean herbal medicine, ingredients to help fight acne and enlarged pores.
+insert into products (name, brand, description, code, price) values ('Beauty of Joseon glow serum', 'beautyofjoseon', 'A honey-like serum enriched with hanbang, traditional Korean herbal medicine, ingredients to help fight acne and enlarged pores.
   Infused with 60% propolis extract and 2% niacinamide.
   Anti-inflammation ingredients: Tamanu oil, Betanie Salicylate, Tea tree extract.
   Brightening ingredients: Lotus corniculatus seed extract.', '534965714-5', 17.99);
 -- 9
-insert into products (name, brand, description, code, price) values ('Beauty of Joseon Ginseng Cleansing Oil', 'boj', 'A gentle, lightweight cleansing oil that gently dissolves and emulsifies wastes while adding moisture to your skin. 
+insert into products (name, brand, description, code, price) values ('Beauty of Joseon Ginseng Cleansing Oil', 'beautyofjoseon', 'A gentle, lightweight cleansing oil that gently dissolves and emulsifies wastes while adding moisture to your skin. 
   Infused with ginseng seed oil to protect your skin barrier and offer a subtle grassy scent for a more calm and peaceful cleansing time.', '5874539-5', 23.99);
 -- 10
 insert into products (name, brand, description, code, price) values ('AXIS-Y Dark Spot Correcting Glow Serum', 'axis-y', 'A lightweight serum that helps brighten dark spots and hyperpigmentation, leaving your skin hydrated and glowing.
@@ -69,7 +69,7 @@ CREATE TABLE brand (
 insert into brands (brand) values (anua);
 insert into brands (brand) values (cosrx);
 insert into brands (brand) values (roundlab);
-insert into brands (brand) values (boj);
+insert into brands (brand) values (beautyofjoseon);
 
 
 CREATE TABLE categories (
@@ -77,8 +77,8 @@ CREATE TABLE categories (
   category VARCHAR(255)
 );
 
-insert into categories (category) values (cleansers);
-insert into categories (category) values (moisturizers);
-insert into categories (category) values (toners);
-insert into categories (category) values (masks);
-insert into categories (category) values (serums);
+insert into categories (category) values (cleanser);
+insert into categories (category) values (moisturizer);
+insert into categories (category) values (toner);
+insert into categories (category) values (mask);
+insert into categories (category) values (serum);
