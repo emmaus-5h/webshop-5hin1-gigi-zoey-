@@ -204,3 +204,17 @@ for help almost 24x7 with many questions and problems and providing basic shop c
 
 
 
+# Aantekeningen
+1. Api aanpassen, zie video 5 van https://informatica.emmauscollege.nl/opdrachten/webshop/
+mapje api , index.js
+- app.get('/api/products', getProducts)
+- /api/products geeft aan waar de webpagina de vraag aan de api stelt
+- getProducts geeft de code die vraag beantwoord
+- In getProducts staat de sql query voor de database
+- SELECT products.id AS id, products.name AS name, products.description AS description, products.code AS code, products.price AS price FROM products ORDER BY name ASC
+- pas de query aan, zodat er extra velden uit de database worden opgvraagd. Get
+
+2. Aanpassen WEB zie video 6 van https://informatica.emmauscollege.nl/opdrachten/webshop/
+mapje web , index.html
+- onder de regel 52 <!-- template for product info-->
+- het template word gekopieerd voor elk product dat je site toont
