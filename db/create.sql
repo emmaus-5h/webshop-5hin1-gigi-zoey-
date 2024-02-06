@@ -6,7 +6,7 @@ CREATE TABLE products (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   code VARCHAR(15),
   name VARCHAR(255),
-  brand VARCHAR (20),
+  brand VARCHAR (200),
   description TEXT,
   category VARCHAR (100),
   skintype VARCHAR (50),
