@@ -12,6 +12,7 @@ CREATE TABLE products (
   ingredient VARCHAR (10),
   type VARCHAR (20),
   category VARCHAR (100),
+  category_id INTEGER,
   price NUMERIC(10, 2)
 );
 
