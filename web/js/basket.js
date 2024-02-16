@@ -20,6 +20,22 @@ function filterProduct(value) {
     }
   })
 };
+
+let elements = 
+document.querySelectorAll(".card");
+elements.forEach((element) => {
+if (value == "all") {
+  element.classList.remove("hide");
+} else {
+  if (element.classList.contains(value))
+  {
+    element.classList.remove("hide");
+  } else {
+    element.classList.add("hide");
+  }
+}
+});
+
 // https://www.codewithrandom.com/2023/11/28/product-filter-using-javascript/
 function getProductInfo(id) {
   return JSON.parse(localStorage.getItem(`item_${id}`))

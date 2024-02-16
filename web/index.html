@@ -30,19 +30,56 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-<div id="buttons">
-  <button class="button-value"
-    onclick="filterProduct('all')">All</button>
-  <button class="button-value"
-    onclick="filterProduct('category')">Category</button>
-  <button class="button-value"
-    onclick="filterProduct('skintype')">Skintype</button>
-  <button class="button-value"
-    onclick="filterProduct('brand')">Brand</button>
-  <button class="button-value"
-    onclick="filterProduct('ingredient')">Ingredient</button>
-</div>
-    // https://www.codewithrandom.com/2023/11/28/product-filter-using-javascript/
+<!-- dropdown-menu -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="navlink dropdown-toggle" href="#" id="navbarDropdownbrand" role="botton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Brand
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownBrand">
+            <a class="dropdown-item" href="#" onclick="filterProduct ('brand', 'anua')">Anua </a>
+            <a class="dropdown-item" href="#" onclick="filterProduct ('brand', 'cosrx')">Cosrx </a>
+            <a class="dropdown-item" href="#" onclick="filterProduct ('brand', 'roundlab')">Roundlab </a>
+            <a class="dropdown-item" href="#" onclick="filterProduct ('brand', 'beautyofjoseon')">Beauty of Joseon </a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="navlink dropdown-toggle" href="#" id="navbarDropdowncategory" role="botton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Category
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownCategory">
+            <a class="dropdown-item" href="#" onclick="filterProduct ('category', 'cleanser')">Cleanser </a>
+            <a class="dropdown-item" href="#" onclick="filterProduct ('category', 'Moisturizer')">Moisturizer </a>
+            <a class="dropdown-item" href="#" onclick="filterProduct ('category', 'toner')">Toner </a>
+            <a class="dropdown-item" href="#" onclick="filterProduct ('category', 'mask')">Mask </a>
+            <a class="dropdown-item" href="#" onclick="filterProduct ('category', 'serum')">Serum </a>
+            <a class="dropdown-item" href="#" onclick="filterProduct ('category', 'essence')">Essence </a>
+            <a class="dropdown-item" href="#" onclick="filterProduct ('category', 'sunscreen')">Sunscreen </a>
+          </div>
+        </li>
+      </ul>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="navlink dropdown-toggle" href="#" id="navbarDropdownskintype" role="botton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Skintype
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownSkintype">
+              <a class="dropdown-item" href="#" onclick="filterProduct ('skintype', 'dry')">Dry</a>
+              <a class="dropdown-item" href="#" onclick="filterProduct ('skintype', 'oily')">Oily </a>
+              <a class="dropdown-item" href="#" onclick="filterProduct ('skintype', 'combination')">Combination </a>
+            </div>
+          </li>
+        </ul>
+      <!--https://www.w3schools.com/howto/howto_css_dropdown.asp -->
+   
+    <!-- https://www.codewithrandom.com/2023/11/28/product-filter-using-javascript/ -->
     
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<a
