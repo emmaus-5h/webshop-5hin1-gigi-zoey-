@@ -119,6 +119,12 @@ insert into categories (category) values ('serum');
 insert into categories (category) values ('essence');
 insert into categories (category) values ('sunscreen');
 
+CREATE TABLE product_category (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  product_id INTEGER,
+  category_id INTEGER
+);
+
 insert into product_category (product_id, category_id) values (1, 1);
 insert into product_category (product_id, category_id) values (2, 2);
 insert into product_category (product_id, category_id) values (3, 3);
