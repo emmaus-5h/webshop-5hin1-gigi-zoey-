@@ -30,6 +30,11 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
+<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent"></div>
+    
+<!-- https://getbootstrap.com/docs/4.1/utilities/flex/#justify-content -->
+    
+
 <!-- dropdown-menu -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
@@ -77,6 +82,20 @@
             </div>
           </li>
         </ul>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="navlink dropdown-toggle" href="#" id="navbarDropdowntype" role="botton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Type
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownType">
+                <a class="dropdown-item" href="#" onclick="filterProduct ('type', 'cream')">Cream</a>
+                <a class="dropdown-item" href="#" onclick="filterProduct ('type', 'gel')">Gel </a>
+                <a class="dropdown-item" href="#" onclick="filterProduct ('type', 'liquid')">Liquid </a>
+              </div>
+            </li>
+          </ul>
       <!--https://www.w3schools.com/howto/howto_css_dropdown.asp -->
    
     <!-- https://www.codewithrandom.com/2023/11/28/product-filter-using-javascript/ -->
