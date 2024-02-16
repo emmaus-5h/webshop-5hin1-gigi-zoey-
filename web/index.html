@@ -30,12 +30,21 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
+<div id="buttons">
+  <button class="button-value"
+    onclick="filterProduct('all')">All</button>
+  <button class="button-value"
+    onclick="filterProduct('category')">Category</button>
+  <button class="button-value"
+    onclick="filterProduct('skintype')">Skintype</button>
+  <button class="button-value"
+    onclick="filterProduct('brand')">Brand</button>
+  <button class="button-value"
+    onclick="filterProduct('ingredient')">Ingredient</button>
+</div>
+    // https://www.codewithrandom.com/2023/11/28/product-filter-using-javascript/
+    
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Artikelen <span class="sr-only">(current)</span></a>
-				</li>
-			</ul>
 			<a
 				href="basket.html"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Winkelwagen <span class="num_products"></span></button></a>
 		</div>

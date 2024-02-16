@@ -10,6 +10,17 @@
 // Array van hoeveelheid (amount) per product, 
 //   de index van de array is het product_id
 
+function filterProduct(value) {
+  let button = document.querySelectorAll(".button-value");
+  buttons.forEach((button) => {
+    if (value.toUpperCase() == button.innerText.toUpperCase()) {
+      button.classList.add("active");
+    } else {
+      button.classList.remove("active");
+    }
+  })
+};
+// https://www.codewithrandom.com/2023/11/28/product-filter-using-javascript/
 function getProductInfo(id) {
   return JSON.parse(localStorage.getItem(`item_${id}`))
 }
