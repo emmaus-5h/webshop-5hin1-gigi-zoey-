@@ -70,40 +70,40 @@ CREATE TABLE brands (
   brand VARCHAR(255)
 );
 
-insert into brands (brand) values (anua);
-insert into brands (brand) values (cosrx);
-insert into brands (brand) values (roundlab);
-insert into brands (brand) values (beautyofjoseon);
+insert into brands (brand) values ('anua');
+insert into brands (brand) values ('cosrx');
+insert into brands (brand) values ('roundlab');
+insert into brands (brand) values ('beautyofjoseon');
 
 CREATE TABLE skintypes (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   skintype VARCHAR (255)
 );
 
-insert into skintypes (skintype) values (dry);
-insert into skintypes (skintype) values (oily;
-insert into skintypes (skintype) values (combination);
+insert into skintypes (skintype) values ('dry');
+insert into skintypes (skintype) values ('oily');
+insert into skintypes (skintype) values ('combination');
 
 CREATE TABLE ingredients (
   id INTEGER PRIMARY KEY AUTOINCREMENT, 
   ingredient VARCHAR (255)
 );
 
-insert into ingredients (ingredient) values (niacinamide);
-insert into ingredients (ingredient) values (panthenol);
-insert into ingredients (ingredient) values (snail);
-insert into ingredients (ingredient) values (vitamins);
-insert into ingredients (ingredient) values (matcha);
-insert into ingredients (ingredient) values (birch);
+insert into ingredients (ingredient) values ('niacinamide');
+insert into ingredients (ingredient) values ('panthenol');
+insert into ingredients (ingredient) values ('snail');
+insert into ingredients (ingredient) values ('vitamins');
+insert into ingredients (ingredient) values ('matcha');
+insert into ingredients (ingredient) values ('birch');
 
 CREATE TABLE types (
   id INTEGER PRIMARY KEY AUTOINCREMENT, 
   type VARCHAR (255)
 );
 
-insert into types (type) values (cream);
-insert into types (type) values (gel);
-insert into types (type) values (liquid);
+insert into types (type) values ('cream');
+insert into types (type) values ('gel');
+insert into types (type) values ('liquid');
 
 
 CREATE TABLE categories (
@@ -111,13 +111,13 @@ CREATE TABLE categories (
   category VARCHAR(255)
 );
 
-insert into categories (category) values (cleanser);
-insert into categories (category) values (moisturizer);
-insert into categories (category) values (toner);
-insert into categories (category) values (mask);
-insert into categories (category) values (serum);
-insert into categories (category) values (essence);
-insert into categories (category) values (sunscreen);
+insert into categories (category) values ('cleanser');
+insert into categories (category) values ('moisturizer');
+insert into categories (category) values ('toner');
+insert into categories (category) values ('mask');
+insert into categories (category) values ('serum');
+insert into categories (category) values ('essence');
+insert into categories (category) values ('sunscreen');
 
 insert into product_category (product_id, category_id) values (1, 1);
 insert into product_category (product_id, category_id) values (2, 2);
